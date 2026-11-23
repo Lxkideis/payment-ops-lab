@@ -1,0 +1,17 @@
+.venv/
+_runtime/
+__pycache__/
+.pytest_cache/
+.ruff_cache/
+*.pyc
+.env
+.env.*
+*.log
+*.sqlite
+*.db
+artifacts/*_controls.csv
+**/output/*.csv
+/data/
+/internal/
+/private/
+/.private/

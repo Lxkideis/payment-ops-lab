@@ -1,0 +1,10 @@
+{
+  "date": "2026-11-23",
+  "tests_passed": 21,
+  "test_command": "python -m pytest -q",
+  "database": "Real PostgreSQL 18, isolated loopback cluster",
+  "demo_seed_verified": true,
+  "dependencies": "Existing environment matching requirements-lock.txt; dependencies were not reinstalled.",
+  "scope": "Publication source copy tested on Windows; synthetic data only; no production performance claim.",
+  "first_start_without_generated_inputs_verified": true
+}

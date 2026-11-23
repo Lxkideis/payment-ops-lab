@@ -1,0 +1,33 @@
+{
+  "recorded_utc": "2026-10-21T11:38:39.195740+00:00",
+  "python": "3.12.14",
+  "os": "Windows 11",
+  "postgresql": "18.3",
+  "ledger_rows": 10200,
+  "partner_rows": 10212,
+  "repetitions": 7,
+  "wall_ms_including_connection_and_commit": [
+    164.616,
+    171.2,
+    178.449,
+    172.979,
+    177.864,
+    164.825,
+    177.389
+  ],
+  "median_wall_ms": 172.979,
+  "min_wall_ms": 164.616,
+  "max_wall_ms": 178.449,
+  "engine_ms_before_commit": [
+    162.138,
+    168.534,
+    175.652,
+    170.483,
+    175.052,
+    162.327,
+    176.159
+  ],
+  "all_classifications_match_oracle": true,
+  "conditions": "One local Windows machine; native PostgreSQL; one excluded warm-up; warm caches; sequential runs; no concurrent workload. Query-plan is SELECT-only and has different scope from full reconciliation.",
+  "limits": "No before/after speedup claim, p95 claim, production capacity claim, or business impact estimate."
+}
